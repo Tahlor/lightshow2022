@@ -16,4 +16,7 @@ sftp-config.json
 .directory
 
 # Ignore all LED configs except default
-Led[0-9].cfg
+Led[0-9].
+cfg
+
+.idea/
