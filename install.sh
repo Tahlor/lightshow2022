@@ -111,7 +111,7 @@ done
 log Attempt to install opt/vc failure is not a concern
 svn export https://github.com/raspberrypi/firmware/trunk/opt/vc /opt/vc
 
-# wiringpi apt-get not available on Deb 11+
+#   wiringpi apt-get not available on Deb 11+
 log Install deb package manually for wiringPi
 cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
