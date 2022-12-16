@@ -1,1 +1,396 @@
 /bin/bash: /home/pi/lightshow2022/bin/start_microweb: Permission denied
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off speakers
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off system
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Turned on lights
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers (part of Start)
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers (part of Start)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:root:Turned off lights
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off system
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off speakers
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off system
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers (part of Start)
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+Exception ignored in: <module 'threading' from '/usr/lib/python3.7/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 1263, in _shutdown
+    def _shutdown():
+  File "/home/pi/lightshow2022/py/synchronized_lights.py", line 195, in <lambda>
+    signal.signal(signal.SIGTERM, lambda x, y: sys.exit(0))
+SystemExit: 0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Turned on lights
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Turned off lights
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers (part of Start)
+/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi:172: DeprecationWarning: cgi.escape is deprecated, use html.escape instead
+  print("""<h2>Executed command: %s</h2>""" % cgi.escape(message))
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers (part of Start)
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:Connected to local relay
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root:Sent command to turn off system
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root:Sent command to turn on speakers
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 193
+    log = f"{os.environ['SYNCHRONIZED_LIGHTS_HOME']/logs/microweb.log"
+         ^
+SyntaxError: f-string: expecting '}'
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 193
+    log = f"{os.environ['SYNCHRONIZED_LIGHTS_HOME']/logs/microweb.log"
+         ^
+SyntaxError: f-string: expecting '}'
+Traceback (most recent call last):
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 35, in <module>
+    logger.setFormatter(formatter)
+AttributeError: 'Logger' object has no attribute 'setFormatter'
+Traceback (most recent call last):
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 35, in <module>
+    logger.setFormatter(formatter)
+AttributeError: 'Logger' object has no attribute 'setFormatter'
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 00:19:07,579 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 00:24:41 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+2022-12-14 00:25:31 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 00:25:31 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+2022-12-14 00:25:38 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 00:25:38 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+127.0.0.1 - - [14/Dec/2022 00:31:04] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 00:31:12] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root.relay:('127.0.0.1', 56434) has connected
+2022-12-14 00:31:13 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+INFO:root.relay:b'i_on|'
+2022-12-14 00:31:13 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+INFO:root.relay:('127.0.0.1', 56434) has disconnected
+2022-12-14 00:31:17 - root - INFO - Connected to local relay server
+127.0.0.1 - - [14/Dec/2022 00:31:16] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root.relay:('127.0.0.1', 56442) has connected
+2022-12-14 00:31:17 - root - INFO - Sent command to turn off speakers
+INFO:root:Sent command to turn off speakers
+INFO:root.relay:b'i_off|'
+INFO:root.relay:('127.0.0.1', 56442) has disconnected
+sh: 1: stop_microweb: not found
+sh: 1: stop_microweb: not found
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 162
+    command = f'{stop} && sleep 2 && {start} >> $SYNCHRONIZED_LIGHTS_HOME/logs/microweb.log 2>&1 &')
+                                                                                                   ^
+SyntaxError: invalid syntax
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 162
+    command = f'{stop} && sleep 2 && {start} >> $SYNCHRONIZED_LIGHTS_HOME/logs/microweb.log 2>&1 &')
+                                                                                                   ^
+SyntaxError: invalid syntax
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+  File "<fstring>", line 1
+    (HOME])
+         ^
+SyntaxError: invalid syntax
+  File "<fstring>", line 1
+    (HOME])
+         ^
+SyntaxError: invalid syntax
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+2022-12-14 01:38:03 - root - INFO - Turned off lights
+INFO:root:Turned off lights
+192.168.187.135 - - [14/Dec/2022 01:37:49] "GET / HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:37:49] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:37:50] "GET /favicon.png HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:37:50] "GET /css/style.css HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:37:50] "GET /favicon.png HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:37:52] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 01:38:03] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+2022-12-14 01:38:04 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root.relay:('127.0.0.1', 34528) has connected
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root.relay:b'i_off|'
+2022-12-14 01:38:04 - root - INFO - Sent command to turn off speakers
+INFO:root:Sent command to turn off speakers
+INFO:root.relay:('127.0.0.1', 34528) has disconnected
+2022-12-14 01:38:06 - root - INFO - Connected to local relay server
+192.168.187.135 - - [14/Dec/2022 01:38:05] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_off
+2022-12-14 01:38:06 - root - INFO - Sent command to turn off speakers
+INFO:root.relay:('127.0.0.1', 34532) has connected
+INFO:root:Sent command to turn off speakers
+INFO:root.relay:b'i_off|'
+INFO:root.relay:('127.0.0.1', 34532) has disconnected
+2022-12-14 01:38:11 - root - INFO - Connected to local relay server
+192.168.187.135 - - [14/Dec/2022 01:38:10] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 01:38:11 - root - INFO - Sent command to turn on speakers
+INFO:root:Sent command to turn on speakers
+INFO:root.relay:('127.0.0.1', 34536) has connected
+INFO:root.relay:b'i_on|'
+INFO:root.relay:('127.0.0.1', 34536) has disconnected
+192.168.187.135 - - [14/Dec/2022 01:38:14] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+2022-12-14 01:38:15 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_off
+2022-12-14 01:38:15 - root - INFO - Sent command to turn off speakers
+INFO:root:Sent command to turn off speakers
+INFO:root.relay:('127.0.0.1', 34540) has connected
+INFO:root.relay:b'i_off|'
+INFO:root.relay:('127.0.0.1', 34540) has disconnected
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN
+  File "/home/pi/lightshow2022/web/microweb/cgi-bin/web_controls.cgi", line 174
+    else:
+       ^
+SyntaxError: invalid syntax
+sleep: invalid time interval ‘&&’
+sleep: invalid time interval ‘/home/pi/lightshow2022/bin/stop_microweb’
+sleep: invalid time interval ‘&&’
+sleep: invalid time interval ‘sleep’
+sleep: invalid time interval ‘&&’
+sleep: invalid time interval ‘/home/pi/lightshow2022/bin/start_microweb’
+sleep: invalid time interval ‘>>’
+sleep: invalid time interval ‘$SYNCHRONIZED_LIGHTS_HOME/logs/microweb.log’
+sleep: invalid time interval ‘2>&1’
+Try 'sleep --help' for more information.
+2022-12-14 18:54:58 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 18:54:58 - root - INFO - Sent command to turn on speakers (part of Start)
+INFO:root:Sent command to turn on speakers (part of Start)
+192.168.187.56 - - [14/Dec/2022 02:11:04] "GET / HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:05] "GET /favicon.png HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:05] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:05] CGI script exit status 0x100
+192.168.187.56 - - [14/Dec/2022 02:11:05] "GET /favicon.ico HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:43] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:44] "GET /css/style.css HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:47] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:11:48] CGI script exit status 0x100
+192.168.187.56 - - [14/Dec/2022 02:12:11] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:12:15] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:12:32] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:13:22] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:13:23] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:14:18] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:14:24] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:14:50] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:14:52] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:16:53] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:16:56] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.56 - - [14/Dec/2022 02:17:00] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 08:26:04] "GET / HTTP/1.1" 304 -
+192.168.187.135 - - [14/Dec/2022 08:26:04] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 08:26:05] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Dec/2022 08:48:34] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 08:48:34] "OPTIONS /PiShare/Downloads/external/tor HTTP/1.1" 501 -
+127.0.0.1 - - [14/Dec/2022 09:08:00] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 09:08:01] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Dec/2022 09:08:02] "GET /favicon.png HTTP/1.1" 304 -
+127.0.0.1 - - [14/Dec/2022 09:10:26] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 09:10:26] "OPTIONS /PiShare HTTP/1.1" 501 -
+127.0.0.1 - - [14/Dec/2022 09:38:28] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 09:38:28] "OPTIONS /PiShare HTTP/1.1" 501 -
+127.0.0.1 - - [14/Dec/2022 10:09:21] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 10:09:21] "OPTIONS /PiShare HTTP/1.1" 501 -
+127.0.0.1 - - [14/Dec/2022 12:59:48] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 12:59:48] "OPTIONS /PiShare HTTP/1.1" 501 -
+192.168.187.135 - - [14/Dec/2022 18:54:47] "GET / HTTP/1.1" 304 -
+192.168.187.135 - - [14/Dec/2022 18:54:47] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 18:54:48] "GET /css/style.css HTTP/1.1" 304 -
+192.168.187.135 - - [14/Dec/2022 18:54:57] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root.relay:('127.0.0.1', 38174) has connected
+INFO:root.relay:b'i_on|'
+INFO:root.relay:('127.0.0.1', 38174) has disconnected
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+2022-12-14 19:14:48 - root - INFO - Turned on lights
+INFO:root:Turned on lights
+2022-12-14 22:11:04 - root - INFO - Connected to local relay server
+192.168.187.135 - - [14/Dec/2022 19:14:38] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('192.168.187.135', 51508)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/pi/lightshow2022/web/microweb/CGIHTTPServer_root.py", line 580, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/pi/lightshow2022/web/microweb/CGIHTTPServer_root.py", line 376, in handle
+    self.handle_one_request()
+  File "/home/pi/lightshow2022/web/microweb/CGIHTTPServer_root.py", line 344, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+127.0.0.1 - - [14/Dec/2022 20:58:38] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 20:58:39] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 21:36:48] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 21:36:48] "OPTIONS /PiShare HTTP/1.1" 501 -
+192.168.187.135 - - [14/Dec/2022 22:11:01] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 22:11:04] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_on
+2022-12-14 22:11:04 - root - INFO - Sent command to turn on speakers (part of Start)
+INFO:root:Sent command to turn on speakers (part of Start)
+INFO:root.relay:('127.0.0.1', 38988) has connected
+INFO:root.relay:b'i_on|'
+INFO:root.relay:('127.0.0.1', 38988) has disconnected
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+2022-12-14 22:21:37 - root - INFO - Turned off lights
+INFO:root:Turned off lights
+192.168.187.135 - - [14/Dec/2022 22:21:29] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 22:22:03] code 501, message Unsupported method ('OPTIONS')
+127.0.0.1 - - [14/Dec/2022 22:22:03] "OPTIONS / HTTP/1.1" 501 -
+127.0.0.1 - - [14/Dec/2022 22:22:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 22:22:05] "GET /favicon.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 22:22:05] "GET /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+127.0.0.1 - - [14/Dec/2022 22:22:06] "GET /css/style.css HTTP/1.1" 200 -
+192.168.187.135 - - [14/Dec/2022 22:25:12] "POST /cgi-bin/web_controls.cgi HTTP/1.1" 200 -
+INFO:root.relay:Got message
+INFO:root.relay:('127.0.0.1', 39058) has connected
+2022-12-14 22:25:13 - root - INFO - Connected to local relay server
+INFO:root:Connected to local relay server
+INFO:root:[send_commands.py] - Sending i_off
+INFO:root.relay:b'i_off|'
+2022-12-14 22:25:13 - root - INFO - Sent command to turn off system
+INFO:root:Sent command to turn off system
+INFO:root.relay:b'Sent command: i_off'
+INFO:root:Starting relay...
+INFO:root:Connected to Broadlink using LAN

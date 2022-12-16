@@ -8,6 +8,7 @@ sys.path.append(broadlink)
 import relay as relay_package
 
 logger = logging.getLogger()
+logging.basicConfig(level=logging.DEBUG)
 
 def create_relay():
     ## START INTERNAL RELAY SERVER
